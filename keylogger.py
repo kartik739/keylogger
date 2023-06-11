@@ -1,11 +1,9 @@
-''' 
-The OS module in Python provides functions for interacting with the operating system. OS comes under Python’s standard utility modules. This module provides a portable way of using operating system-dependent functionality. 
-'''
+''' The OS module in Python provides functions for interacting with the operating system. OS comes under Python’s standard utility modules. This module provides a portable way of using operating system-dependent functionality. '''
+
 import os
 
-''' 
-Python's time module allows to work with time in Python. It allows functionality like getting the current time, pausing the Program from executing, etc. 
-'''
+''' Python's time module allows to work with time in Python. It allows functionality like getting the current time, pausing the Program from executing, etc. '''
+
 import time
 
 ''' Socket programming is a way of connecting two nodes on a network to communicate with each other. One socket(node) listens on a particular port at an IP, while the other socket reaches out to the other to form a connection. The server forms the listener socket while the client reaches out to the server.  '''

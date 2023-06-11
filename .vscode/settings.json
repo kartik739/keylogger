@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
         "Fernet",
+        "fromaddr",
         "gethostname",
         "keylogger",
         "myrecording",
@@ -9,7 +10,9 @@
         "samplerate",
         "scipy",
         "sounddevice",
+        "syseminfo",
         "systeminfo",
+        "toaddr",
         "wavfile"
     ]
 }
