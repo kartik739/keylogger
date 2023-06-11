@@ -57,3 +57,8 @@ It will generate the encryption key. Paste this key into `DecryptFile.py` & `Key
 ```
 >>> python Keylogger.py
 ```
+
+## Contributors
+- [Vaibhav Chaudhary](https://github.com/PerksofbeingVaibhav)
+- [Kartik Mehta](https://github.com/kartikmehta8)
+- [Kartik Goel](https://github.com/kartik739)
