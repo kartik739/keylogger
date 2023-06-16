@@ -62,3 +62,6 @@ It will generate the encryption key. Paste this key into `DecryptFile.py` & `Key
 ```
 
 ## Output Files
+<p align="center">
+  <img src="https://drive.google.com/file/d/1vKRR1RG3btz2yLD0-ZXFQenDWgBQW1-8/view?usp=sharing" alt="Output" />
+</p>
