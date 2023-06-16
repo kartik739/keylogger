@@ -8,6 +8,7 @@
         "keyloggers",
         "myrecording",
         "pynput",
+        "pyperclip",
         "pywin",
         "samplerate",
         "scipy",
