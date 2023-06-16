@@ -48,10 +48,10 @@ Key loggers are activity-monitoring software programs that give hackers access t
   <img src="https://user-images.githubusercontent.com/77505989/162591488-6682da11-167a-4848-81de-e09d86561830.png" alt="Twilio" />
 </p>
 
-## Working Model
 
 
-## How to use?
+
+## How to Use?
 After cloning & installing all the dependencies, run
 ```
 >>> python GenerateKey.py
@@ -60,3 +60,5 @@ It will generate the encryption key. Paste this key into `DecryptFile.py` & `Key
 ```
 >>> python Keylogger.py
 ```
+
+## Output Files
