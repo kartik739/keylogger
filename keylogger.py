@@ -38,6 +38,9 @@ from twilio.rest import Client
 ''' SciPy is a scientific computation library that uses NumPy underneath. SciPy stands for Scientific Python.
 It provides more utility functions for optimization, stats and signal processing '''
 from scipy.io.wavfile import write
+
+'''cryptography:- Fernet guarantees that a message encrypted using it cannot be manipulated or read without the key.
+Fernet is an implementation of symmetric (also known as “secret key”) authenticated cryptography. '''
 from cryptography.fernet import Fernet
 from pynput.keyboard import Key, Listener
 #-----------------------------------------------------------------------
