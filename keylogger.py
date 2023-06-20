@@ -30,6 +30,8 @@ from requests import get
 '''pillow:- PIL is the Python Imaging Library which provides the python interpreter with image editing 
 capabilities. The ImageGrab module can be used to copy the contents of the screen or the clipboard to a PIL image memory. '''
 from PIL import ImageGrab
+
+''' Twilio library for interacting with Twilio's features. '''
 from twilio.rest import Client
 from scipy.io.wavfile import write
 from cryptography.fernet import Fernet
