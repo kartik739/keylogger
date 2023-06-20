@@ -27,6 +27,8 @@ import sounddevice as sd
 ''' requests:- module for get/post requests '''
 from requests import get
 
+'''pillow:- PIL is the Python Imaging Library which provides the python interpreter with image editing 
+capabilities. The ImageGrab module can be used to copy the contents of the screen or the clipboard to a PIL image memory. '''
 from PIL import ImageGrab
 from twilio.rest import Client
 from scipy.io.wavfile import write
