@@ -24,7 +24,9 @@ import os, time, socket, platform, win32clipboard, getpass
 '''sounddevice:- sounddevice module provides bindings for the PortAudio library and a few convenience functions to play and record NumPy arrays containing audio signals. '''
 import sounddevice as sd
 
+''' requests:- module for get/post requests '''
 from requests import get
+
 from PIL import ImageGrab
 from twilio.rest import Client
 from scipy.io.wavfile import write
