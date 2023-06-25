@@ -1,20 +1,29 @@
 # importing import libraries-------------------------------------------
-import os, time, socket, platform, win32clipboard, getpass
 
-'''OS:- The OS module in Python provides functions for interacting with the operating system. OS comes under Python’s standard utility modules. This module provides a portable way of using operating system-dependent functionality.
+'''OS:- The OS module in Python provides functions for interacting with the operating system.OS comes under Python’s
+standard utility modules. This module provides a portable way of using operating system-dependent functionality.
 
-time:-  Python's time module allows to work with time in Python. It allows functionality like getting the current time, pausing the Program from executing, etc.
+time:-  Python's time module allows to work with time in Python. It allows functionality like getting the current time,
+pausing the Program from executing, etc.
 
-socket:-  Socket programming is a way of connecting two nodes on a network to communicate with each other. One socket(node) listens on a particular port at an IP, while the other socket reaches out to the other to form a connection. The server forms the listener socket while the client reaches out to the server.
+socket:-  Socket programming is a way of connecting two nodes on a network to communicate with each other.
+One socket(node) listens on a particular port at an IP, while the other socket reaches out to the other to form a connection.
+The server forms the listener socket while the client reaches out to the server.
 
 
-platform:- The Platform module is used to retrieve as much possible information about the platform on which the program is being currently executed.
+platform:- The Platform module is used to retrieve as much possible information about the platform on which the program
+is being currently executed.
 
 win32clipboard:- Used pywin32 for retrieving the clipboard text.
 
-getpass:- In many programs we need a secure the data or program then this case we use some secret key or passwords to identifying the users. Using getpass() it is possible to accept the password in python program.
+getpass:- In many programs we need a secure the data or program then this case we use some secret key or passwords
+to identifying the users. Using getpass() it is possible to accept the password in python program.
 '''
+import os, time, socket, platform, win32clipboard, getpass
+
+'''sounddevice:- sounddevice module provides bindings for the PortAudio library and a few convenience functions to play and record NumPy arrays containing audio signals. '''
 import sounddevice as sd
+
 from requests import get
 from PIL import ImageGrab
 from twilio.rest import Client
