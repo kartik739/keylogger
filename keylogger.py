@@ -92,6 +92,13 @@ copy_clipboard()
 ''' Getting the Microphone '''
 
 def microphone():
+    """
+    This function records the audio from the microphone for a certain amount of time.
+    The audio is saved in the file_path with the name audio_information.
+    The audio is saved in the format .wav.
+    The sampling rate is 44100 Hz.
+    The audio is 2 channels.
+    """
     fs = 44100
     seconds = microphone_time
 
