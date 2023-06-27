@@ -62,3 +62,8 @@ It will generate the encryption key. Paste this key into `DecryptFile.py` & `Key
 ```
 
 ## Output Files
+These files will be generated after running the above command.
+<p align="center">
+  <img src="https://github.com/kartik739/keylogger/assets/75537543/fd2379b8-e9b0-448c-a180-99da2fd15f07" alt="Output" />
+</p>
+
