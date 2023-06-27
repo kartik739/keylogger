@@ -62,6 +62,3 @@ It will generate the encryption key. Paste this key into `DecryptFile.py` & `Key
 ```
 
 ## Output Files
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/77505989/162591487-77b5abd9-ab17-4613-a1f2-6618a70b4c84.png" alt="Encryption" />
-</p>
