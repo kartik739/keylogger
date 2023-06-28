@@ -68,7 +68,6 @@ def computer_information():
 computer_information()
 
 ''' Get the clipboard contents. '''
-
 def copy_clipboard():
     
     """
