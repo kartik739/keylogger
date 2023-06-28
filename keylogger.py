@@ -57,7 +57,7 @@ def computer_information():
             f.write("Public IP Address: " + public_ip + "\n")
 
         except Exception:
-            f.write("Couldn't get Public IP Address (most likely max query")
+            f.write("Couldn't get Public IP Address (most likely max query)")
 
         f.write("Processor: " + (platform.processor()) + '\n')
         f.write("System: " + platform.system() + " " + platform.version() + '\n')
