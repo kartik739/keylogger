@@ -112,6 +112,11 @@ microphone()
 ''' Get screenshots '''
 
 def screenshot():
+    """
+    This fun Takes a screenshot of the screen and saves it to the file path.
+    The file name is specified in the screenshot_information variable.
+    The file extension is specified in the extend variable.
+    """
     im = ImageGrab.grab()
     im.save(file_path + extend + screenshot_information)
 
