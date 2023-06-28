@@ -45,7 +45,7 @@ file_merge = file_path + extend
 ''' Get the computer information. '''
 
 def computer_information():
-      """
+    """
     This function will write the computer information to the system_information file.
     It will write the processor, system, machine, hostname, and private IP address.
     """
