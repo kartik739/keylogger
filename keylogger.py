@@ -70,6 +70,7 @@ computer_information()
 ''' Get the clipboard contents. '''
 
 def copy_clipboard():
+    
     """
     This function copies the clipboard data and writes it to a file.
     The file is located in the same directory as the script.
